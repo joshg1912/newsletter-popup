@@ -1,3 +1,14 @@
  body{
    background-color: radial-gradient(#e66465, #9198e5);
 }
+
+
+.container {
+  height:90vh;
+}
+
+.header {
+  border: 2px solid black;
+  border-radius: 10px 10px 0 0;
+  height: 10vh;
+}
