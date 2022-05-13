@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+  background-color: blue;
 }
 
 .container {
@@ -9,14 +9,24 @@ body {
 .header {
   border: 2px solid black;
   border-radius: 10px 10px 0 0;
-  height: 10vh;
-
+  height: 20vh;
+  background-color: blue;
 }
 
 .bottom-container {
-  background-color: red;
+  border: 2px solid black;
   height: 40vh;
-  position: absolute;
-  top:50%;
-  left:50%;
+  width: 40%;
+
 }
+
+.header-text {
+  width: 55%;
+  font-size: 145%;
+  color:white;
+}
+
+p {
+  color: gray;
+}
+
