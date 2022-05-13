@@ -1,7 +1,6 @@
- body{
-   background-color: radial-gradient(#e66465, #9198e5);
+body {
+  background-color: red;
 }
-
 
 .container {
   height:90vh;
@@ -11,4 +10,13 @@
   border: 2px solid black;
   border-radius: 10px 10px 0 0;
   height: 10vh;
+
+}
+
+.bottom-container {
+  background-color: red;
+  height: 40vh;
+  position: absolute;
+  top:50%;
+  left:50%;
 }
