@@ -1,5 +1,6 @@
 body {
-  background-color: blue;
+  background-image: url("Assets/Background.png");
+  background-size: cover;
 }
 
 .container {
