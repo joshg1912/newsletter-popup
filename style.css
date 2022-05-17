@@ -16,11 +16,11 @@ body {
 
 .bottom-container {
   height: 42vh;
-  width: 40%;
   padding: 25px;
+  min-width: 26.7vw;
+  max-width: 26.8vw;
   background-color: #ffffff;
   border-radius: 0 0 15px 15px;
-
 }
 .text {
   text-align: center;
@@ -44,3 +44,13 @@ p {
   flex:1;
 }
 
+@media only screen and (min-width:2560px) {
+  .bottom-container {
+    height: 42vh;
+    padding: 25px;
+    min-width: 26.7vw;
+    max-width: 26.8vw;
+    background-color: #ffffff;
+    border-radius: 0 0 15px 15px;
+  }
+}
