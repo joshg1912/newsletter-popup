@@ -36,3 +36,10 @@ p {
   color: gray;
 }
 
+.form-control {
+  flex:2;
+}
+
+.btn {
+  flex:1;
+}
