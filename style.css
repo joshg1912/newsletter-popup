@@ -15,15 +15,17 @@ body {
 }
 
 .bottom-container {
-  height: 42vh;
+  flex-wrap: nowrap;
+  max-height: auto;
   padding: 25px;
-  min-width: 26.7vw;
-  max-width: 26.8vw;
+
+  max-width: calc(485px + 1vw );
   background-color: #ffffff;
   border-radius: 0 0 15px 15px;
 }
 .text {
   text-align: center;
+  font-size: calc(10px + 1vh);
 }
 
 .header-text {
@@ -42,6 +44,14 @@ p {
 
 .btn {
   flex:1;
+}
+
+.profile-text {
+  font-size: calc(12px + 1vh);
+}
+
+.profile-sub-text {
+  font-size: calc(10px + 1vh);
 }
 
 @media only screen and (min-width:2560px) {
